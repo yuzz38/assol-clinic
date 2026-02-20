@@ -702,6 +702,17 @@ footer {
         gap: 20px;
         justify-content: flex-start;
     }
+    .warning a {
+        display: block;
+        margin-top: 10px;
+    }
+    .warning a + a {
+        margin-left: 0px;
+    }
+    .warning a {
+        font-size: 17px;
+        padding: 12px 0px;
+    }
     .about__scroll {
         overflow-x: scroll;
     }
