@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ассоль</title>
+    <link rel="stylesheet" href="./style/bvi.min.css" type="text/css">
     <link rel="stylesheet" href="./style/style.css">
     <meta name="keywords" content="Зубы. Лечение. Нижнеудинск. Зубная клиника. Вырвать зуб. " />
 	<meta name="description" content="Клиника стоматологии г. Нижнеудинска. быстрое и качественное лечение зубов и заболеваний полости рта" />
@@ -60,6 +61,7 @@
                         <div class="header__flex-info">
                             <a href="tel:+79642755549">+7 (964) 275 55 49</a>
                             <p>Звоните по любым вопросам</p>
+                            <a href="#" class="bvi-open" title="Версия сайта для слабовидящих">Версия сайта для слабовидящих</a>
                         </div>
                     </div>
                 </div>
@@ -292,13 +294,13 @@
                 </div>
             </div>
             <div class="licence" id="license">
-                <h2>Лицензии нашей клиники</h2>
+                <h2>Лицензия нашей клиники</h2>
                 <div class="licence__slider">
                     <div class="swiper swiperLicence">
 
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="./img/lic.pdf" data-fancybox><img src="./img/lic.jpg" alt=""></a>
+                                <a href="./img/lic.pdf" target="_blank"><img src="./img/lic.jpg" alt=""></a>
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
@@ -733,10 +735,21 @@
         </div>
         
     </div>
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./script/bvi.min.js"></script>
+    <script>
+  new isvek.Bvi({
+    target: '.bvi-open',
+    fontSize: 14,
+    theme: 'white',
+    reload:true,
+  })
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 <script src="./script/main.js"></script>
+</body>
+
 </html>

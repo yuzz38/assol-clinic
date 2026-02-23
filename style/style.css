@@ -222,6 +222,12 @@ main {
     padding: 10px;
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.2);
 }
+.swiperLicence .swiper-slide {
+    border: 1px solid #011738;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
 .about {
     margin-top: 130px;
 }
